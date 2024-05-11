@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="basanzietech@gmail.com" // no need
+global.email ="cypherilerioluwa@gmail.com" // no need
 global.location="Goba,Tanzania." // no need
 
 
@@ -24,15 +24,15 @@ global.THUMB_IMAGE = process.env.IMAGE || "https://telegra.ph/file/8fed3725a6d91
 
 
 
-global.devs = "255657779003" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349151066117";
+global.devs = "2349121881343" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349121881343";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349151066117";
 
 
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '5'  // put '1' to "5" here to check bot styles
+global.style = process.env.STYLE   || '2'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
@@ -49,14 +49,14 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "true"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2349151066117";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2349151066117, 2349121881343";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349151066117";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349151066117, 2349121881343";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://shakira-md-qr-code.onrender.com";
@@ -67,17 +67,17 @@ global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7
 
 module.exports = {
 
-  menu: process.env.MENU || "2", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "1", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ",",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : process.env.CAPTION || "© basanzietech | shakira md" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʜᴀᴋɪʀᴀ-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ʙᴀsᴀɴᴢɪᴇ ᴛᴇᴄʜ』*\n youtube.com/@basanzietech"),
+  caption : process.env.CAPTION || "© ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀 | ÀKÀNDÉ-MIDÉ-BOT md" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ Cypher Ilerioluwa-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • Cypher Ilerioluwa ᴛᴇᴄʜ』*\n youtube.com/@cypherilerioluwa"),
  
-  author : process.env.PACK_AUTHER|| "ÀKÀNDÉ-MIDÉ-BOT",
-  packname: process.env.PACK_NAME || "ÀKÀNDÉ-MIDÉ-BOT",
-  botname : process.env.BOT_NAME  || "ÀKÀNDÉ-MIDÉ-BOT",
-  ownername:process.env.OWNER_NAME|| "ÀKÀNDÉ-MIDÉ-BOT",
+  author : process.env.PACK_AUTHER|| "ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀",
+  packname: process.env.PACK_NAME || "ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀",
+  botname : process.env.BOT_NAME  || "ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀",
+  ownername:process.env.OWNER_NAME|| "ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,8 +91,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "SHAKIRA"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  LANG: ( process.env.THEME ||  "ÀKÀNDÉ-MIDÉ-BOT🤖🌹🍀"  ).toUpperCase(),
 
 
 
